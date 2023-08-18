@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/Image';
 import CPU from '../public/CPU.jpeg';
 import { IconButton } from '@mui/material';
 import {Person, AccessAlarmRounded} from "@mui/icons-material";
@@ -22,7 +21,7 @@ export default function Page() {
         </div>
 
         <div className={"background"}>
-          <Image src={CPU} alt={"cpu-background"} className={"CPU"}/>
+          <img src={CPU} alt={"cpu-background"} className={"CPU"}/>
         </div>
 
         <div className={"event-cards"}>
