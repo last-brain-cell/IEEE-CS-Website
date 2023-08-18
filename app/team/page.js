@@ -3,6 +3,8 @@
 import { useRouter,  } from 'next/navigation'
 import { Button } from '@mui/material'
 import CPU from '../../public/CPU.jpeg';
+import Image from "next/Image";
+
 
 export default function Page() {
     const router = useRouter()
@@ -10,7 +12,7 @@ export default function Page() {
     return (
         <div>
             <div className={"background"}>
-                <img src={CPU} alt={"cpu-background"} className={"CPU"}/>
+                <Image src={CPU} alt={"cpu-background"} className={"CPU"}/>
             </div>
             <h1>Teams Page</h1>
             <ol>
