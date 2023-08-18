@@ -1,6 +1,5 @@
-
-import Link from 'next/link'
-import { IconButton } from '@mui/material'
+import Link from 'next/link';
+import { IconButton } from '@mui/material';
 import {Person, AccessAlarmRounded} from "@mui/icons-material";
 import { Card, CardContent, Typography, Grid } from '@mui/material';
 
