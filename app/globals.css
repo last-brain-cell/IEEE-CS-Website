@@ -19,9 +19,41 @@
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+          to bottom,
+          transparent,
+          rgb(var(--background-end-rgb))
+  )
+  rgb(var(--background-start-rgb));
 }
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(74, 152, 255, 0.92);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust the gap between cards */
+  padding: 16px; /* Add padding as desired */
+}
+
+.card{
+  flex: 1;
+  width: calc(50% - 16px); /* Adjust the width and spacing */
+  height: 200px; /* Set a fixed height */
+  background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Add a subtle shadow */
+  margin: 8px; /* Adjust margin for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
