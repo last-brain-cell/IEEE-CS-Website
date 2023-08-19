@@ -11,31 +11,28 @@ const MyNavbar = () => {
         >
             <Navbar.Brand href="https://flowbite.com/">
                 <img
-                    src="https://flowbite.com/docs/images/logo.svg"
+                    src="../../../favicon.ico"
                     className="mr-3 h-6 sm:h-9"
-                    alt="Flowbite Logo"
+                    alt="CS Logo"
                 />
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Flowbite</span>
+                {/*<span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"></span>*/}
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Navbar.Link
-                    href="/navbars"
+                    href="/"
                     active={true}
                 >
                     Home
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
+                <Navbar.Link href="/About">
                     About
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Services
+                <Navbar.Link href="/team">
+                    Team
                 </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Pricing
-                </Navbar.Link>
-                <Navbar.Link href="/navbars">
-                    Contact
+                <Navbar.Link href="/Events">
+                    Events
                 </Navbar.Link>
             </Navbar.Collapse>
         </Navbar>
