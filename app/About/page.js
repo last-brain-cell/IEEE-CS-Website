@@ -1,5 +1,6 @@
 "use client"
 
+
 import "./style.css"
 import React from 'react';
 import {AnimatedGradientText} from "../Components/Animation/page";
@@ -119,7 +120,7 @@ const About = () => {
             </div>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full md:px-24 md:py-14 lg:px-8 lg:py-12">
                 <div className="grid border divide-y rounded-global divide-gray-300 max-w-7xl dark:border-slate-600 dark:divide-gray-600 sm:grid-cols-2 sm:divide-y-0 sm:divide-x lg:col-span-3 2xl:mx-auto">
-                    <div className="flex flex-col justify-between p-8 gap-y-4 lg:grid lg:grid-cols-3">
+                    <div className="flex flex-col justify-between p-8 gap-y-4 lg:grid lg:grid-cols-3 ">
                         <div className="">
                             <p className="text-lg font-semibold text-slate-900 dark:text-slate-100 sm:text-base">Total Amount</p>
                             <p className="text-2xl font-bold text-primary-500 sm:text-xl">$14 340 </p>
@@ -140,11 +141,11 @@ const About = () => {
                         </div>
                         <div className="">
                             <p className="text-lg font-semibold text-slate-900 dark:text-slate-100 sm:text-base">Visits</p>
-                            <p class="text-2xl font-bold text-primary-500 sm:text-xl">917 000</p>
+                            <p className="text-2xl font-bold text-primary-500 sm:text-xl">917 000</p>
                         </div>
-                        <div class="">
-                            <p class="text-lg font-semibold text-slate-900 dark:text-slate-100 sm:text-base">Subscribers</p>
-                            <p class="text-2xl font-bold text-primary-500 sm:text-xl">213K</p>
+                        <div className="">
+                            <p className="text-lg font-semibold text-slate-900 dark:text-slate-100 sm:text-base">Subscribers</p>
+                            <p className="text-2xl font-bold text-primary-500 sm:text-xl">213K</p>
                         </div>
                     </div>
                 </div>
