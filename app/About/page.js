@@ -10,6 +10,7 @@ import Footer from "../Components/shared/Footer/footer";
 const About = () => {
     return (
         <div>
+            <h1 className="text-blk team-head-text">About</h1>
             <div className={"gradient-text"}>
                 <AnimatedGradientText>IEEE Computer Society</AnimatedGradientText>
                 <AnimatedGradientText>
@@ -38,14 +39,14 @@ const About = () => {
                             { fontSize: '1em' }}
                     />
                 </AnimatedGradientText>
-                <div className={"gradient-text-2"}>
-                    <AnimatedGradientText>Wanna get to know us a little better? Scroll down</AnimatedGradientText>
-                </div>
+                {/*<div className={"gradient-text-2"}>*/}
+                {/*    <AnimatedGradientText>Wanna get to know us a little better? Scroll down</AnimatedGradientText>*/}
+                {/*</div>*/}
             </div>
-            <div className={"About"}>
+            <div className={"About-body"}>
                 <div className="container-block container">
-                    <h1 className="text-blk team-head-text">About</h1>
-                    <div className="first-block">
+
+                    <div className="first-block card">
                         <div>
                             <img
                                 src="/cslogo.png"
@@ -74,6 +75,7 @@ const About = () => {
                     <p></p>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
