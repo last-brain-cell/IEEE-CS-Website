@@ -11,3 +11,7 @@
     background: black;
     background-size: cover;
 }
+
+header {
+    background: slategray;
+}
