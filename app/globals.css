@@ -2,18 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/*html {*/
-/*    background-image: url("../public/background5.jpg");*/
-/*    background-size: cover;*/
-/*}*/
+html {
+    background-image: url("../public/background5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .main {
-    background: black;
-    background-size: cover;
-    background-image: url("../public/background5.jpg");
+
     background-size: cover;
 }
 
 header {
     background: slategray;
 }
+
+
+
