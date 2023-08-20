@@ -10,6 +10,8 @@
 .main {
     background: black;
     background-size: cover;
+    background-image: url("../public/background5.jpg");
+    background-size: cover;
 }
 
 header {
