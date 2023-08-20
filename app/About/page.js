@@ -49,7 +49,9 @@ const About = () => {
                         <div>
                             <img
                                 src="/cslogo.png"
-                                className="cslogo"/>
+                                className="cslogo"
+                                width={"100%"}
+                            />
                         </div>
                         <div>
                             <p className="about-cs-muj"><br />
