@@ -6,3 +6,7 @@ html {
     background-image: url("../public/background5.jpg");
     background-size: cover;
 }
+
+.gradient-text {
+    padding-top: 200px;
+}

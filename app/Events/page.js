@@ -1,10 +1,9 @@
-'use client'
-
+import Card from "../Components/Event Card/page";
 
 export default function Page() {
     return (
         <div>
-            <p>Events Page</p>
+            <Card />
         </div>
     )
 }

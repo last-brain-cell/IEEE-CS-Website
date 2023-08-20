@@ -1,11 +1,12 @@
-import Card from "./Components/Event Card/page";
+"use client"
 
+import TextGradientComponent from "./Components/Animation/page";
 
 export default function Page() {
   return (
       <div>
-          <div className={"cards"}>
-              <Card />
+          <div className={"gradient-text"}>
+              <TextGradientComponent />
           </div>
       </div>
   )
