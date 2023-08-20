@@ -54,6 +54,7 @@ html, body {
     padding-bottom: 10px;
     padding-left: 10px;
     display: block;
+
 }
 
 .responsive-cell-block {
@@ -120,3 +121,7 @@ html, body {
     margin-right: 1em;
 }
 
+.body-container {
+    background: rgba(255,255,255,0.8);
+    color: black;
+}
