@@ -11,7 +11,7 @@ const MyNavbar = () => {
             rounded={true}
             className="transparent-navbar"
         >
-            <Navbar.Brand href="https://flowbite.com/">
+            <Navbar.Brand href="/">
                 <img
                     src="../../../favicon.ico"
                     className="mr-3 h-6 sm:h-9"
