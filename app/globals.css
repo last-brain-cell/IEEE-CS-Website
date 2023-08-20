@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    background-image: url("../public/background5.jpg");
+/*html {*/
+/*    background-image: url("../public/background5.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+.main {
+    background: black;
     background-size: cover;
 }

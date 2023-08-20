@@ -17,10 +17,12 @@ export default function RootLayout({ children }) {
             <header>
                 <MyNavbar />
             </header>
-            {children}
-            <footer>
-                {/*<Footer />*/}
-            </footer>
+            <div className="main">
+                {children}
+                <footer>
+                    <Footer />
+                </footer>
+            </div>
         </body>
       </html>
   )
