@@ -1,28 +1,38 @@
-'use client'
-import kyd from '../../../public/kyd.png'
 import React from 'react';
 
-const Card = () => {
+export default function Card(){
     return (
-        <div>
-
-            <div
-                className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a href="#">
-                    <img className="p-8 rounded-t-lg" src={kyd} alt="product image"/>
-                </a>
-                <div className="px-5 pb-5">
-                    <a href="#">
-                        <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Know Your Domain</h5>
-                    </a>
-                    <div className="flex items-center mt-2.5 mb-5">
+            <div className="min-h-screen bg-gradient-to-tr from-red-300 to-yellow-200 flex justify-center items-center py-20">
+                <div className="md:px-4 md:grid md:grid-cols-3 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+                    <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                        <h3 className="mb-3 text-xl font-bold text-indigo-600">Beginner Friendly</h3>
+                        <div className="relative">
+                            <img className="w-full rounded-xl" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Colors" />
+                            <p className="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">FREE</p>
+                        </div>
+                        <h1 className="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Javascript Bootcamp for Absolute Beginners</h1>
+                        {/* Additional details and buttons */}
                     </div>
-                    <button type="button" className="text-black bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">Register Now</button>
+                    {/* Repeat similar content for other cards */}
+                    <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                        <h3 className="mb-3 text-xl font-bold text-indigo-600">Beginner Friendly</h3>
+                        <div className="relative">
+                            <img className="w-full rounded-xl" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Colors" />
+                            <p className="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">FREE</p>
+                        </div>
+                        <h1 className="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Javascript Bootcamp for Absolute Beginners</h1>
+                        {/* Additional details and buttons */}
+                    </div>
+                    <div className="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+                        <h3 className="mb-3 text-xl font-bold text-indigo-600">Beginner Friendly</h3>
+                        <div className="relative">
+                            <img className="w-full rounded-xl" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Colors" />
+                            <p className="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">FREE</p>
+                        </div>
+                        <h1 className="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Javascript Bootcamp for Absolute Beginners</h1>
+                        {/* Additional details and buttons */}
+                    </div>
                 </div>
             </div>
-
-        </div>
-    );
-};
-
-export default Card;
+        );
+}

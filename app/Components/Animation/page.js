@@ -2,18 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-/**
- * Example Text Gradient Animation
- */
-export default function TextGradientComponent() {
-    return (
-        <>
-            <AnimatedGradientText>IEEE Computer Society, MUJ</AnimatedGradientText>
-            <AnimatedGradientText>We like tech?...</AnimatedGradientText>
-        </>
-    );
-}
-
 const hue = keyframes`
  from {
    -webkit-filter: hue-rotate(0deg);
@@ -22,7 +10,8 @@ const hue = keyframes`
    -webkit-filter: hue-rotate(-360deg);
  }
 `;
-const AnimatedGradientText = styled.h1`
+
+export const AnimatedGradientText = styled.h1`
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-background-clip: text;
