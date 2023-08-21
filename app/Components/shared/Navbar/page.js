@@ -1,3 +1,5 @@
+
+
 'use client'
 
 import "./style.css"
@@ -34,8 +36,4 @@ const MyNavbar = () => {
         </Navbar>
     );
 };
-
 export default MyNavbar;
-
-
-
